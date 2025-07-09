@@ -82,3 +82,26 @@ print("Is  98 in se:",98 in se) #Is  98 in se: False
 print("Is 23 not in se:",23 not in se) #Is 23 not in se: True
 
 # Using Dictionary
+d={'name':'Shirisha','age':'20','course':'DA'}
+print("Is 'name' in d:",'name' in d) #Is 'name' in d: True
+print("Is 'course' not in d:",'name' not in d) #Is 'course' not in d: False
+print("Is 'DA'  in d:",'DA' in d) #Is 'DA'  in d: False
+print("Is 20 not in d:",20 not in d) #Is 20 not in d: True
+
+
+# 6.Identity Operator
+a=[1,2,3,4]
+b=[1,2,3,4]
+print("Is a is b:",a is b) #Is a is b: False
+c=a
+print("Is a is c:",a is c) #Is a is c: True
+print(id(a)) #2139478504064
+print(id(b)) #139475865344
+print(id(c)) #2139478504064
+print("Is b is not a:",b is not a) #Is b is not a: True
+print("Is c is not a:",c is not a) #Is c is not a: False
+
+
+# 7.Bitwise Operators
+6&7
+print("Bitwise AND is:",6&7) #Bitwise AND is: 6
